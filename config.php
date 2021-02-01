@@ -1,5 +1,5 @@
 <?php 
-	$connect = mysql_connect('localhost','root', 'daniel123');
+	$connect = mysql_connect('localhost','root', 'your-password');
 	if ($connect) {
 		//echo "Done";
 		$dbselect=mysql_select_db('population');
